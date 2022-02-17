@@ -4,7 +4,7 @@
 
 >  This is a music application, which I used HTML5 and CSS3.
 
-Confira a aplicação: https://kayke-fujinaka.github.io/PlayStation-Store/
+Confira a aplicação: https://kayke-fujinaka.github.io/music-app/
 
 ## 🚀 Technologies
 
