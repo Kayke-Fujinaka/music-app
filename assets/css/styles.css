@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+    background-image: url(/assets/img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #E0E8FF;
+}
+
+.card {
+    height: 530px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-central {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 18px;
+    color: #253353;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    color: #9AA1B8;
+    margin: 0 25px 30px;
+}
+
+.plans {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    background-color: #f1f3f8;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.container-icon {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.text {
+    color: #253353;
+    font-weight: bold;
+}
+
+.info {
+    color: #9AA1B8;
+}
+
+.change {
+    color: #8479DA;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.change:hover {
+    opacity: 0.8;
+}
+
+.change:active {
+    color: #9AA1B8;
+    opacity: 0.6;
+}
+
+button {
+    width: 80%;
+    padding: 7px 0;
+    background-color: #382AE1;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.2s;
+    margin-bottom: 30px;
+    
+}
+
+button:hover {
+    opacity: 0.8;
+    
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.cancel {
+    color: #6B738A;
+    text-decoration: none;
+    transition: 0.2s;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.cancel:hover {
+    opacity: 0.8;
+}
