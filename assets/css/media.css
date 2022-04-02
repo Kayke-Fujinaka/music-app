@@ -1,0 +1,57 @@
+@media (max-width: 500px) {
+    .card {
+        height: 100%;
+        width: 100%;
+    }
+    .image-central {
+        border-radius: 0px;
+    }
+}
+
+@media (max-width: 350px) {
+    .title {
+        font-size: 14px;
+    }
+    .subtitle {
+        font-size: 12px;
+    }
+    .icon {
+        max-height: 35px;
+    }
+    .container-info {
+        font-size: 10px;
+    }
+    .change {
+        font-size: 10px;
+    }
+    button {
+        font-size: 10px;
+    }
+    .cancel {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 200px) {
+    .title {
+        font-size: 10px;
+    }
+    .subtitle {
+        font-size: 8px;
+    }
+    .container-icon {
+        display: block;
+    }
+    .container-info {
+        font-size: 8px;
+    }
+    .change {
+        font-size: 8px;
+    }
+    button {
+        font-size: 8px;
+    }
+    .cancel {
+        font-size: 8px;
+    }
+}
