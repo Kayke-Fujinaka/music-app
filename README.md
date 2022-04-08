@@ -1,6 +1,6 @@
 # APP MUSIC
 
-<img src="./assets/img/img.png" width="800px" height="400px" alt="Gif do Teste">
+<img src="./assets/img/img.png" alt="Gif do Teste">
 
 >  The page is an application of a music application.
 
